@@ -5,7 +5,7 @@ plugins {
 	id("org.asciidoctor.jvm.convert") version "3.3.2"
 }
 
-group = "it.sysagent.recommended"
+group = "it.sys.agent.recommended"
 version = "0.0.1-SNAPSHOT"
 
 java {

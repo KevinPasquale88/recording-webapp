@@ -1,9 +1,9 @@
-package it.sysagent.recommended.recordingwebapp.controller;
+package it.sys.agent.recommended.recording.webapp.controller;
 
-import it.sysagent.recommended.recordingwebapp.controller.converter.UserConverter;
-import it.sysagent.recommended.recordingwebapp.controller.dto.UserDTO;
-import it.sysagent.recommended.recordingwebapp.document.User;
-import it.sysagent.recommended.recordingwebapp.service.UserService;
+import it.sys.agent.recommended.recording.webapp.document.User;
+import it.sys.agent.recommended.recording.webapp.service.UserService;
+import it.sys.agent.recommended.recording.webapp.controller.converter.UserConverter;
+import it.sys.agent.recommended.recording.webapp.controller.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

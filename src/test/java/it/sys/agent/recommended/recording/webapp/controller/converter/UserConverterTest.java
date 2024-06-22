@@ -1,7 +1,7 @@
-package it.sysagent.recommended.recordingwebapp.controller.converter;
+package it.sys.agent.recommended.recording.webapp.controller.converter;
 
-import it.sysagent.recommended.recordingwebapp.controller.dto.UserDTO;
-import it.sysagent.recommended.recordingwebapp.document.User;
+import it.sys.agent.recommended.recording.webapp.document.User;
+import it.sys.agent.recommended.recording.webapp.controller.dto.UserDTO;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

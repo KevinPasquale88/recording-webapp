@@ -1,4 +1,4 @@
-package it.sysagent.recommended.recordingwebapp.handler;
+package it.sys.agent.recommended.recording.webapp.handler;
 
 import com.mongodb.MongoException;
 import org.springframework.http.ResponseEntity;

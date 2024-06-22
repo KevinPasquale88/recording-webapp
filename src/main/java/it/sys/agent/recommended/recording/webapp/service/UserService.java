@@ -1,7 +1,7 @@
-package it.sysagent.recommended.recordingwebapp.service;
+package it.sys.agent.recommended.recording.webapp.service;
 
-import it.sysagent.recommended.recordingwebapp.document.User;
-import it.sysagent.recommended.recordingwebapp.repository.UserRepository;
+import it.sys.agent.recommended.recording.webapp.document.User;
+import it.sys.agent.recommended.recording.webapp.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

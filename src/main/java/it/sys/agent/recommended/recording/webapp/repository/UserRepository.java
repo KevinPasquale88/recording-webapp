@@ -1,6 +1,6 @@
-package it.sysagent.recommended.recordingwebapp.repository;
+package it.sys.agent.recommended.recording.webapp.repository;
 
-import it.sysagent.recommended.recordingwebapp.document.User;
+import it.sys.agent.recommended.recording.webapp.document.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
-package it.sysagent.recommended.recordingwebapp.controller;
+package it.sys.agent.recommended.recording.webapp.controller;
 
-import it.sysagent.recommended.recordingwebapp.controller.converter.UserConverter;
-import it.sysagent.recommended.recordingwebapp.controller.dto.UserDTO;
-import it.sysagent.recommended.recordingwebapp.document.User;
-import it.sysagent.recommended.recordingwebapp.service.UserService;
+import it.sys.agent.recommended.recording.webapp.service.UserService;
+import it.sys.agent.recommended.recording.webapp.controller.converter.UserConverter;
+import it.sys.agent.recommended.recording.webapp.controller.dto.UserDTO;
+import it.sys.agent.recommended.recording.webapp.document.User;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.mockito.Spy;

@@ -1,4 +1,4 @@
-package it.sysagent.recommended.recordingwebapp;
+package it.sys.agent.recommended.recording.webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

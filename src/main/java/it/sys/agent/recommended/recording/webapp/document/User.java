@@ -1,4 +1,4 @@
-package it.sysagent.recommended.recordingwebapp.document;
+package it.sys.agent.recommended.recording.webapp.document;
 
 import lombok.Builder;
 import lombok.Data;

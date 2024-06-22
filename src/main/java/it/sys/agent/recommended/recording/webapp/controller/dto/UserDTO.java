@@ -1,4 +1,4 @@
-package it.sysagent.recommended.recordingwebapp.controller.dto;
+package it.sys.agent.recommended.recording.webapp.controller.dto;
 
 
 import jakarta.validation.constraints.Positive;

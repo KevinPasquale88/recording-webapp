@@ -22,7 +22,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(NoSuchElementException.class)
-    protected ResponseEntity<Object> handleNoSuchElementException(NoSuchElementException ex) {
+    protected ResponseEntity<Object> handleNoSuchElementException() {
         return ResponseEntity.notFound().build();
     }
 }

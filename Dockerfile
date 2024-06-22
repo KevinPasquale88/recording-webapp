@@ -1,4 +1,4 @@
-USER developer
+USER 10001
 FROM gradle:jdk21-alpine as builder
 COPY --chown=gradle:gradle . /source
 WORKDIR /source

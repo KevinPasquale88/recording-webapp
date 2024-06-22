@@ -1,4 +1,3 @@
-USER 10001
 FROM gradle:jdk21-alpine as builder
 COPY --chown=gradle:gradle . /source
 WORKDIR /source
@@ -14,3 +13,4 @@ RUN mkdir /app
 COPY --from=builder /source/build/libs/*.jar /app/app.jar
 
 ENTRYPOINT ["java", "-jar","/app/app.jar"]
+USER 10001
